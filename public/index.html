@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Agenda de Atividades</h1>
+
+    <form id="formAtividade">
+
+        <input type="hidden" id="id">
+
+        <input type="text" id="titulo" placeholder="Título">
+
+        <textarea id="descricao" placeholder="Descrição"></textarea>
+
+        <input type="date" id="data">
+
+        <input type="time" id="horario">
+
+        <select id="prioridade">
+            <option>Selecione Uma Opção...</option>
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+        </select>
+
+        <select id="status">
+            <option>Selecione Uma Opção...</option>
+            <option>Pendente</option>
+            <option>Em andamento</option>
+            <option>Concluída</option>
+        </select>
+
+        <button type="submit">Salvar</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Sua Agenda</h2>
+    <div id="listaAtividades"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

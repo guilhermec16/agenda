@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+    background:
+        linear-gradient(135deg,
+            #2196f3 0%,
+            #2196f3 33%,
+            #4caf50 33%,
+            #4caf50 66%,
+            #f44336 66%,
+            #f44336 100%);
+
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+form {
+    background: rgba(255, 255, 255, 0.507);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.356);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #4CAF50;
+}
+
+button:hover {
+    background-color: #2c5f2d;
+}
+
+h2 {
+    text-align: center;
+}
